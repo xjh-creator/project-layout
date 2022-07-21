@@ -1,0 +1,2 @@
+1. 当项目有更新时，为了方便了解当前版本的更新内容或者历史更新内容，需要将更新记录存放到 CHANGELOG 目录。
+2. 编写 CHANGELOG 是一个复杂、繁琐的工作，我们可以结合 Angular https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines 规范 和 git-chglog https://github.com/git-chglog/git-chglog 来自动生成 CHANGELOG。

@@ -1,0 +1,3 @@
+1. 虽然 Makefile 是一个很老的项目管理工具，但它仍然是最优秀的项目管理工具。所以，一个 Go 项目在其根目录下应该有一个 Makefile 工具，用来对项目进行管理，
+2. Makefile 通常用来执行静态代码检查、单元测试、编译等功能。其他常见功能，你可以参考这里： https://github.com/marmotedu/geekbang-go/blob/master/Makefile%E5%B8%B8%E8%A7%81%E7%AE%A1%E7%90%86%E5%86%85%E5%AE%B9.md Makefile 常见管理内容 。
+3. 我还有一条建议：直接执行 make 时，执行如下各项 format -> lint -> test -> build，如果是有代码生成的操作，还可能需要首先生成代码 gen -> format -> lint -> test -> build。在实际开发中，我们可以将一些重复性的工作自动化，并添加到 Makefile 文件中统一管理。

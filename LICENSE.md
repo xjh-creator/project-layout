@@ -1,0 +1,3 @@
+1. 版权文件可以是私有的，也可以是开源的。常用的开源协议有：Apache 2.0、MIT、BSD、GPL、Mozilla、LGPL。有时候，公有云产品为了打造品牌影响力，会对外发布一个本产品的开源版本，所以在项目规划初期最好就能规划下未来产品的走向，选择合适的 LICENSE。
+2. 为了声明版权，你可能会需要将 LICENSE 头添加到源码文件或者其他文件中，这部分工作可以通过工具实现自动化，推荐工具：https://github.com/marmotedu/addlicense 。
+3. 当代码中引用了其它开源代码时，需要在 LICENSE 中说明对其它源码的引用，这就需要知道代码引用了哪些源码，以及这些源码的开源协议，可以借助工具来进行检查，推荐工具：https://github.com/ribice/glice 。至于如何说明对其它源码的引用，大家可以参考下 IAM 项目的 LICENSE https://github.com/marmotedu/iam/blob/master/LICENSE 文件。
